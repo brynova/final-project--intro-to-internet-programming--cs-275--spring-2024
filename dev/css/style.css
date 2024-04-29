@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+}
+
+.alert {
+  z-index: 0;
+  display: block;
+}
+
+input,
+.alert {
+  margin: 4rem 0;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: black;
+}
